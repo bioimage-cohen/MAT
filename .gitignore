@@ -1,0 +1,37 @@
+
+#Ignore matlab autosaves, mat files
+*~
+*.asv
+*.mat
+
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.opensdf
+*.sdf
+*.ipch
+*.idb
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+
+# Ignore standard build directories
+[Dd]ebug*/
+[Rr]elease*/
+[Ii]ntermediate*/
+
