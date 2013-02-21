@@ -75,3 +75,7 @@ extern int gWindowSize;
 extern double gVMax;
 extern double gCCMax;
 
+// Debug Helper functions (helpers.cpp)
+void PrintDebugPathInfo(const CSourcePath& path, int srcFrameIdx);
+double DebugGetCost(double& forwardCost, std::vector<double>& partialCosts, const std::vector<int>& path, int srcFrameIdx);
+
