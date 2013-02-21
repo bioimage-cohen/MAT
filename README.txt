@@ -1,9 +1,12 @@
-The multitemporal association tracker is a multitarget tracking system, this
-version has a cost function which was developed for tracking cells in 2D,
+The multitemporal association tracker [1] is a multitarget tracking system,
+this version has a cost function which was developed for tracking cells in 2D,
 though it would not be difficult to modify the cost function for 3D.
 
 This directory includes Visual Studio 2008 solution files, but the underlying
 tracker should build on other platforms if necessary.
+
+Further information about the internal tracking algorithm can be found in:
+doi: 10.1504/IJCBDD.2012.045950
 
 
 Directory Structure
@@ -96,3 +99,6 @@ Note 2: ID fields are global detection IDs, these begin at 0 and are assigned
 Thus, reading until the -1,-1,-1 line will give all the necessary tracking info
 but reading further gives costs and information for other edges which were not
 assigned to tracks.
+
+
+[1] Winter MR, Fang C, Banker G, Roysam B, Cohen AR. Axonal transport analysis using Multitemporal Association Tracking. Int J Comput Biol Drug Des. 2012;5(1):35-48. doi: 10.1504/IJCBDD.2012.045950
